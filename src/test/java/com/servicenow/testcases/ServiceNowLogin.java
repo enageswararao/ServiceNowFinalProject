@@ -84,7 +84,7 @@ public class ServiceNowLogin extends GeneralKeywords {
 				testSuite = testcase_obj.getString("suiteName");
 				tcid = testStep_obj.getString("u_test_case");
 				HashMap<String, String> stepList = new HashMap<String, String>();
-
+System.out.println("Test Step--Nag-"  );
 				testStepsList.add(testStep_obj);
 				System.out.println("Test Step---" + testStep_obj.get("u_name"));
 				System.out.println("Test Step--" + testStep_obj.get("u_step_type.u_name"));
